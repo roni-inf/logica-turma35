@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numero, total=0 
+
+		escreva("Digite o n°:")
+		leia(numero)
+		enquanto(numero != 0){
+			total = total + numero
+			escreva("Digite o n°:")
+			leia(numero)
+		}
+			
+		escreva("Fim de Programa!")
+		escreva("total:",total)
+	}
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 264; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = {numero, 6, 10, 6}-{total, 6, 18, 5};
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
